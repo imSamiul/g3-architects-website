@@ -99,6 +99,30 @@ main {
   color: #ff900e;
 }
 
+/* ------- facts section style ------ */
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.facts-card-container .card {
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px 30px;
+  font-weight: 600;
+}
+.facts-card-container .card-stats {
+  font-size: 2.8rem;
+
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.facts-card-container .card-title {
+  font-size: 1.25rem;
+  margin-top: 5px;
+}
 /* for small or mobile device */
 @media screen and (max-width: 576px) {
   header {
