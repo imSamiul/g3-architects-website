@@ -4,6 +4,14 @@
   font-family: "Work Sans", sans-serif;
 }
 .btn-primary {
+  border-radius: 8px;
+  background-color: #ff900e;
+  color: #ffffff;
+  padding: 20px 25px;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 /* ------Shared Style End-------- */
 header {
@@ -48,7 +56,28 @@ nav li a {
 }
 .banner-image {
   width: 100%;
+  margin-top: 20px;
 }
 .banner-description {
   color: rgb(114, 114, 114);
+}
+
+/* for small or mobile device */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* for medium or tablet device */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
 }
