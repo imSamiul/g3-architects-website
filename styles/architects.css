@@ -227,6 +227,12 @@ footer {
   .facts-card-container {
     gap: 20px;
   }
+  .footer-text {
+    padding: 20px;
+  }
+  footer {
+    margin-bottom: 0px;
+  }
 }
 
 /* for medium or tablet device */
